@@ -6,16 +6,16 @@ function Users({ users, posts }) {
       <Navbar title="Users" username="Admin" />
 
       <section className="bg-white p-6 rounded-xl mb-6 shadow-sm overflow-x-auto">
-        <h3 className="mb-5 font-bold text-slate-800">User List ({users.length})</h3>
+        <h3 className="mb-5 font-bold text-slate-800">ผู้ใช้งาน ({users.length})</h3>
 
         <table className="w-full min-w-[700px] border-collapse text-left">
           <thead>
             <tr>
-              <th className="p-4 bg-slate-50 text-slate-600 border-b border-slate-200">ID</th>
-              <th className="p-4 bg-slate-50 text-slate-600 border-b border-slate-200">Name</th>
-              <th className="p-4 bg-slate-50 text-slate-600 border-b border-slate-200">Email</th>
-              <th className="p-4 bg-slate-50 text-slate-600 border-b border-slate-200">Company</th>
-              <th className="p-4 bg-slate-50 text-slate-600 border-b border-slate-200">Posts</th>
+              <th className="p-4 bg-slate-50 text-slate-600 border-b border-slate-200">รหัส</th>
+              <th className="p-4 bg-slate-50 text-slate-600 border-b border-slate-200">ชื่อ</th>
+              <th className="p-4 bg-slate-50 text-slate-600 border-b border-slate-200">อีเมล</th>
+              <th className="p-4 bg-slate-50 text-slate-600 border-b border-slate-200">เมือง</th>
+              <th className="p-4 bg-slate-50 text-slate-600 border-b border-slate-200">โพส</th>
             </tr>
           </thead>
 

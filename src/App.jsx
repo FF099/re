@@ -69,7 +69,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Dashboard users={users} posts={posts} />} />
           <Route path="/users" element={<Users users={users} posts={posts} />} />
-          <Route path="/posts" element={<Posts />} />
+          <Route path="/posts" element={<Posts users={users} posts={posts} />} />
         </Routes>
       </main>
     </div>
