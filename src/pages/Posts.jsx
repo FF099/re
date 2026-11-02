@@ -9,7 +9,7 @@ function Posts({ users, posts }) {
 
   return (
     <>
-      <Navbar title="Posts" username="Admin" />
+      <Navbar title="Posts" username="ผู้ดูแลระบบ" />
 
       <section className="bg-white p-6 rounded-xl mb-6 shadow-sm overflow-x-auto">
         <h3 className="mb-5 font-bold text-slate-800">โพสทั้งหมด ({posts.length})</h3>

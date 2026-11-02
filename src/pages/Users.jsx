@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 function Users({ users, posts }) {
   return (
     <>
-      <Navbar title="Users" username="Admin" />
+      <Navbar title="Users" username="ผู้ดูแลระบบ" />
 
       <section className="bg-white p-6 rounded-xl mb-6 shadow-sm overflow-x-auto">
         <h3 className="mb-5 font-bold text-slate-800">ผู้ใช้งาน ({users.length})</h3>
