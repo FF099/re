@@ -35,7 +35,7 @@ function Dashboard({ users, posts }) {
         </div>
 
         <div className="bg-white p-6 rounded-xl shadow-sm">
-          <h3 className="text-[15px] text-slate-500">โพสเฉลี่ย</h3>
+          <h3 className="text-[15px] text-slate-500">โพสโดยเฉลี่ย</h3>
           <p className="mt-4 text-3xl font-bold text-slate-800">
             {users.length > 0
               ? (posts.length / users.length).toFixed(1)
